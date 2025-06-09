@@ -31,5 +31,4 @@ flutter:
 
   # Declaração de assets (adicionar o PDF modelo aqui)
   assets:
-    - assets/Laudo em branco.pdf
     - assets/logo.png
