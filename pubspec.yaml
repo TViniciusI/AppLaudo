@@ -1,0 +1,35 @@
+name: AppLaudo
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Já existentes
+  image_picker: ^1.0.7
+  path_provider: ^2.1.2
+  pdf: ^3.10.4
+  printing: ^5.12.0
+
+  # Nova dependência para preencher PDF existente como template
+  syncfusion_flutter_pdf: ^24.2.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Declaração de assets (adicionar o PDF modelo aqui)
+  assets:
+    - assets/Laudo em branco.pdf
+    - assets/logo.png
